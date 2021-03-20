@@ -1,0 +1,89 @@
+@import url("buttons_style.css");
+
+html {
+    height: 100%;
+    background-image: linear-gradient(grey, black);
+}
+
+.site-header {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#system-logo {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 50px rgba(158, 12, 12, 0.486);
+}
+
+#top-bar {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 75vw;
+}
+
+#lang-button {
+    padding: 8px 12px;
+    width: 5vw;
+}
+
+hr {
+    border: solid rgba(158, 12, 12, 0.486);
+    box-shadow: 0px 0px 30px rgba(158, 12, 12, 0.486);
+}
+
+.button-section {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.main-section {
+    margin-top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-around;
+}
+
+.main-buttons {
+    margin-bottom: 2vh;
+    width: 24vw;
+    align-self: flex-start;
+}
+
+.main-image {
+    align-self: flex-end;
+}
+
+.bottom-items-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9vh;
+}
+
+#bottom-bar {
+    width: 93vw;
+    flex-grow: 0;
+    align-self: center;
+}
+
+.bottom-buttons-container {
+    align-self: flex-end;
+}
+
+.last-buttons {
+    background-color: rgba(221, 175, 23, 0.795);
+    box-shadow: 0px 0px 20px rgba(221, 175, 23, 0.795);
+}
+
+#about-us {
+    margin-right: 3vw;
+}
+
+#contacts {
+    margin-right: 1vw;
+}
