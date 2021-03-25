@@ -1,0 +1,114 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#menu-center {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    padding: 0.5rem;
+    z-index:1;
+    margin-top: 5rem;
+    background-color: white;
+}
+#menu-center li {
+    list-style: none;
+    margin: 0 2rem 0 0;
+    display: inline;
+}
+
+ul {
+    padding-left: 10rem;
+    height: 0%;
+    margin: 0%;
+}
+.active {
+    font-family:'Droid Sans', serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+a {
+    font-family:'Droid Sans', serif;
+    font-size: 1rem;
+    color: maroon;
+    text-decoration: none;
+}
+
+
+.menu-items{
+    Display: Inline-Block;
+}
+
+#menu-list{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 8rem;
+    position: absolute;
+}
+
+.menu-type{
+    text-align: center;
+}
+
+
+/* card css */
+.card {
+    width: 15rem;
+    height: 16rem;
+    margin: 1rem 0 0 2rem;
+    position: relative;
+    float: left;
+    border-style: double;
+}
+.card-body{
+    margin: 0;
+    text-align: center;
+}
+
+.card-img-top {
+    margin: 1rem;
+    margin-bottom: 0;
+    width: 13rem;
+
+}
+
+
+/* header css */
+
+.site-header {
+    padding-top: 1vh;
+    display: flex;  
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: white;
+    z-index: 1;
+}
+
+#system-logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+#top-bar {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 75vw;
+}
+
+#lang-button {
+    padding: 8px 12px;
+    width: 5vw;
+}
+
+hr {
+    border: solid rgba(158, 12, 12, 0.486);
+    box-shadow: 0px 0px 30px rgba(158, 12, 12, 0.486);
+}
