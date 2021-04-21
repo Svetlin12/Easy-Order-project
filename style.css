@@ -1,0 +1,82 @@
+:root {
+    --red: #b73508;
+    --orange: #ff9d2d;
+    --yellow:#fedc18;
+    --gray:#3f414a;
+    --black:#0d0e15;
+    --white:#ffffff;
+    --border-red:#ff0000;
+  }
+
+  * {
+    font-size: 100%;
+    color: var(--white);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  hr{
+    margin: 2rem;
+  }
+
+  /*-- HEADER STYLE --*/
+
+  html {
+    height: 100%;
+    background-image: linear-gradient( var(--gray),  var(--black));
+}
+header{
+    padding: 1%;
+}
+
+#menu {
+    display: flex;
+    height: 30%;
+}
+
+
+.buttons{
+    width: 40%;
+    margin: auto;
+    display: flex;
+}
+
+.menu-buttons{
+    width: 30%;
+    padding: 2.5% 0 2.5% 0;
+    margin: auto;
+}
+
+.button-style{
+    border-radius: 30rem;
+    border-color: var(--border-red);
+    border-style: groove ;
+    background-color: var(--red);
+}
+
+#my-order{
+    width: 45%;
+}
+
+#lang-button{
+    width: 15%;
+}
+
+#system-logo {
+    max-width: 10%;
+    height: 10%;
+    margin-bottom: -1%;
+}
+
+#chosen-menu {
+    border-style: groove  ;
+    background-color: white;
+    font-size: 130%;
+    padding: 1%;
+    margin: 0 2%;
+    border-radius: 10rem;
+    color: var(--red);
+    border-color: var(--red);
+    font-weight: bold;
+    text-align: center;
+}

@@ -10,19 +10,25 @@
 </head>
 
 <body onload="fillDishes()">
-    <header class="site-header">
-        <div class="system-logo-container">
-            <img src="../images/easy_order_logo.jpg" id="system-logo">
+    <header>
+        <div id="menu">
+            <div class="buttons">
+                <button class="menu-buttons button-style">Начало</button>
+                <button class="menu-buttons button-style">За нас</button>
+                <button class="menu-buttons button-style">Персонал</button>
+            </div>
+
+
+            <img src="../images/easy_order_logo.png" id="system-logo">
+            <div class="buttons">
+                <button class="menu-buttons button-style">Акаунт</button>
+                <button class="menu-buttons button-style" id="my-order">Моята поръчка</button>
+                <button type="button" class="button-style" id="lang-button">БГ</button>
+            </div>
         </div>
-        <div class="top-bar-container">
-            <hr id="top-bar">
-        </div>
-        <div class="lang-button-container">
-            <button type="button" class="button-style" id="lang-button">
-                EN
-            </button>
-        </div>
+        <div id="chosen-menu">Основно меню</div>
     </header>
+
 
     <div class="m1 menu">
         <div id="menu-center">
@@ -36,9 +42,10 @@
         </div>
     </div>
 
+
+
+
     <div id="menu-list">
-        
-       
         <div id="salads" class="menu-items">
             <h1 class="menu-type">Салати</h1>
             <!-- Example for card
@@ -57,9 +64,15 @@
         <div id="pizza" class="menu-items">
             <h1 class="menu-type">Пици</h1>
         </div>
-        <div id="appetizer" class="menu-items"></div>
-        <div id="dessert" class="menu-items"></div>
-        <div id="drinks" class="menu-items"> </div>
+        <div id="appetizer" class="menu-items">
+            <h1 class="menu-type">Предястия</h1>
+        </div>
+        <div id="dessert" class="menu-items">
+            <h1 class="menu-type">Десерти</h1>
+        </div>
+        <div id="drinks" class="menu-items"> 
+            <h1 class="menu-type">Напитки</h1>
+        </div>
     </div>
 </body>
 

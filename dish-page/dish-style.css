@@ -1,0 +1,93 @@
+@import url("../style.css");
+
+#dish-info {
+  display: flex;
+  width: 100%;
+  margin-top: 1%;
+}
+
+#dish-img {
+  width: 30%;
+  padding: 3%;
+}
+
+#dish-text {
+  height: 40%;
+}
+
+h1,
+h2,
+p {
+  text-align: left;
+}
+
+h1 {
+  font-size: 250%;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 130%;
+}
+
+p {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.one-line {
+  display: flex;
+}
+
+#recommmend {
+  width: 30%;
+}
+
+.recom-img {
+  width: 60%;
+}
+
+
+.comment {
+  width: 70%;
+  margin: auto;
+  background: var(--gray);
+  padding: 1% 2%;
+  position: relative;
+  margin-bottom: 1%;
+}
+
+.sb1:before {
+  content: "";
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid  var(--gray);
+  border-top: 10px solid  var(--gray);
+  border-bottom: 10px solid transparent;
+  left: -19px;
+}
+
+
+.comment-text{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.comment-name{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: bold;
+    font-size: 130%;
+    margin-bottom: 1%;
+}
+
+#commenst-container{
+    overflow: scroll;
+    height: 20rem;
+}

@@ -1,5 +1,14 @@
 @import url("buttons_style.css");
 
+
+
+#page {
+    background-color: red;
+}
+
+
+
+/*-- HEADER CSS--*/
 html {
     height: 100%;
     background-image: linear-gradient(grey, black);
@@ -87,3 +96,5 @@ hr {
 #contacts {
     margin-right: 1vw;
 }
+
+

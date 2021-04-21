@@ -45,7 +45,7 @@ function addDishesCard(type, name, price, img) {
     cardTitle.setAttribute("class", "card-title");
 
     var cardPrice = document.createElement("p");
-    text = document.createTextNode(price + "лв");
+    text = document.createTextNode(price.toFixed(2) + "лв");
     cardPrice.appendChild(text);
     cardPrice.setAttribute("class", "card-price");
 
@@ -73,13 +73,18 @@ function fillDishes(event){
     addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    addDishesCard("appetizer", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    addDishesCard("appetizer", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    addDishesCard("appetizer", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    addDishesCard("dessert", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    addDishesCard("dessert", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    addDishesCard("dessert", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    addDishesCard("drinks", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    addDishesCard("drinks", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    addDishesCard("drinks", "Шопска салата", 5.70, "../images/shopska-salata.png");
 }
