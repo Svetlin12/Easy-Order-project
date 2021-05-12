@@ -92,3 +92,7 @@ header {
   padding: 1rem 5rem;
   margin: auto;
 }
+
+.one-line {
+  display: flex;
+}

@@ -1,9 +1,5 @@
 @import url("../style.css");
 
-.one-line {
-  display: flex;
-}
-
 .center {
   width: max-content;
   margin: auto;

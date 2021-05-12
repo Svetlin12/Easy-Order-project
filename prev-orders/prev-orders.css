@@ -1,0 +1,74 @@
+@import url("../style.css");
+
+#history {
+  display: flex;
+  margin: 2% 5%;
+}
+
+#all-histories {
+  width: max-content;
+  margin: 2rem;
+  margin-left: 4rem;
+  width: 20%;
+}
+
+#order-list {
+  display: block; 
+}
+
+.history-btn{
+  padding: 1rem 3rem;
+  border-radius: 0%;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 120%;
+}
+
+
+.one-line{
+  margin-left: 4rem;
+}
+
+
+
+#bill-dishes {
+  margin-top: 2rem;
+  margin-left: 4rem;
+  width: 60%;
+}
+
+
+#dishes-list {
+  overflow: scroll;
+  width: 80%;
+  height: 35rem;
+}
+
+#dish-info {
+  display: flex;
+  margin-top: 1%;
+}
+
+#dish-img {
+  width: 35%;
+  padding: 5%;
+}
+
+
+#dish-text {
+  height: 100%;
+}
+
+#remove-img {
+  width: 5%;
+  height: 5%;
+  margin: auto;
+  margin-right: 5%;
+}
+
+
+.footer-btn {
+  margin-left: 3rem;
+}
