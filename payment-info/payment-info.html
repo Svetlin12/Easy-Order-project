@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Easy Order</title>
+    <link href="payment-info.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <div class="buttons">
+                <button class="menu-buttons button-style">Начало</button>
+                <button class="menu-buttons button-style">За нас</button>
+                <button class="menu-buttons button-style">Персонал</button>
+            </div>
+            <img src="../images/easy_order_logo.png" id="system-logo">
+            <div class="buttons">
+                <button class="menu-buttons button-style">Акаунт</button>
+                <button class="menu-buttons button-style" id="my-order">Моята поръчка</button>
+                <button type="button" class="button-style" id="lang-button">БГ</button>
+            </div>
+        </div>
+        <p id="chosen-menu">Избор на метод за плащане</p>
+    </header>
+    <div>
+        <div class="one-line center">
+            <h1>Текуща сметка: </h1>
+            <h1>25.65</h1>
+        </div>
+
+        <button type="button" class="button-style" id="bill-info">Преглед на поръчката</button>
+        <h1>Метод на плащане: </h1>
+
+        <div class="one-line">
+            <button type="button" class="button-style" id="cash">В брой</button>
+            <button type="button" class="button-style" id="card">С карта</button>
+        </div>
+        <div class="one-line center">
+            <input type="checkbox" id="invoice" name="invoice">
+            <label for="invoice">Издаване на фактура</label>
+        </div>
+
+    </div>
+
+    <div id="button-menu" class = "one-line">
+        <button type="button" class="button-style footer-btn" id="back">Назад</button>
+        <button type="button" class="button-style footer-btn" id="old-bills">Преглед на минали поръчки</button>
+        <button type="button" class="button-style footer-btn" id="pay">Плати</button>
+    </div>
+</body>
+
+</html>

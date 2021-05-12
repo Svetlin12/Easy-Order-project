@@ -1,0 +1,41 @@
+@import url("../style.css");
+
+.one-line {
+  display: flex;
+}
+
+.center {
+  width: max-content;
+  margin: auto;
+}
+
+h1 {
+  font-size: 150%;
+  margin: 0 0.5rem;
+  margin-top: 2rem;
+}
+
+#cash,
+#card,
+#bill-info {
+  padding: 1% 5%;
+  margin: 2% 0;
+}
+
+#cash {
+  margin-left: auto;
+  margin-right: 2%;
+}
+
+#card {
+  margin-right: auto;
+  margin-left: 2%;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+label {
+  padding-left: 1rem;
+}
