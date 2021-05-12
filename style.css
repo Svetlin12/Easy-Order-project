@@ -49,9 +49,9 @@ header{
 
 .button-style{
     border-radius: 30rem;
-    border-color: var(--border-red);
+    background-image: linear-gradient( var(--red), #3f0000);
+    border-color: #3f0000;
     border-style: groove ;
-    background-color: var(--red);
 }
 
 #my-order{

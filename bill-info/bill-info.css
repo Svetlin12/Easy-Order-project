@@ -1,0 +1,91 @@
+@import url("../style.css");
+
+#bill-info {
+  display: flex;
+  width: 100%;
+}
+
+#bill-dishes {
+  width: 60%;
+}
+
+#bill-price {
+  width: 30%;
+  margin-top: 5%;
+}
+
+#dish-info {
+  display: flex;
+  margin-top: 1%;
+}
+
+#dish-img {
+  width: 35%;
+  padding: 5%;
+}
+
+#dish-text {
+  height: 100%;
+}
+
+.one-line {
+  display: flex;
+}
+
+#dish-text {
+  margin: auto 0;
+}
+
+h2 {
+  text-align: left;
+  font-size: 110%;
+}
+
+h1 {
+  text-align: left;
+  font-size: 140%;
+  padding-left: 10%;
+}
+
+#dishes-list {
+  overflow: scroll;
+  width: 80%;
+  height: 35rem;
+  padding-left: 15%;
+}
+
+#remove-img {
+  width: 5%;
+  height: 5%;
+  margin: auto;
+  margin-right: 5%;
+}
+
+td {
+  text-align: left;
+  font-size: 150%;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+
+tr.final-price > td {
+  padding-top: 3rem;
+}
+
+.one-line {
+  display: flex;
+}
+
+#bill-butn {
+  margin-top: 10%;
+  width: 80%;
+  padding: 3%;
+  margin-left: 0%;
+}
+
+.footer-btn {
+  padding: 1% 5%;
+  margin: 5%;
+}
+
+
