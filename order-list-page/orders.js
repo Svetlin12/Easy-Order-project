@@ -1,21 +1,21 @@
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
-    
+
     //smoothscroll
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
         $(document).off("scroll");
-        
+
         $('a').each(function () {
             $(this).removeClass('active');
         })
         $(this).addClass('active');
-      
+
         var target = this.hash,
             menu = target;
         $target = $(target);
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top+2
+            'scrollTop': $target.offset().top + 2
         }, 500, 'swing', function () {
             window.location.hash = target;
             $(document).on("scroll", onScroll);
@@ -23,7 +23,7 @@ $(document).ready(function () {
     });
 });
 
-function onScroll(event){
+function onScroll(event) {
     var scrollPos = $(document).scrollTop();
     $('#menu-center a').each(function () {
         var currLink = $(this);
@@ -32,7 +32,7 @@ function onScroll(event){
             $('#menu-center ul li a').removeClass("active");
             currLink.addClass("active");
         }
-        else{
+        else {
             currLink.removeClass("active");
         }
     });
@@ -63,12 +63,14 @@ function addDishesCard(type, name, price, img) {
     card.appendChild(cardImg);
     card.appendChild(cardBody);
     card.setAttribute("class", "card");
+    //card.onclick = openDishInfo();
+    card.setAttribute("onclick","openDishInfo(name);");
 
     var element = document.getElementById(type);
     element.appendChild(card);
 }
 
-function fillDishes(event){
+function fillDishes(event) {
     addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");

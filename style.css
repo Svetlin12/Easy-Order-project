@@ -22,9 +22,13 @@ hr {
 /*-- HEADER STYLE --*/
 
 html {
+  width: 130vh;
   height: 100%;
-  background-image: linear-gradient(var(--gray), var(--black));
+  background-image: linear-gradient(var(--gray), var(--black));  
+  margin: auto
 }
+
+
 header {
   padding: 1%;
 }

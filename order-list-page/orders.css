@@ -1,10 +1,12 @@
 @import url("../style.css");
 
 .menu-items{
+    width: 120vh;
     Display: Inline-Block;
 }
 
 #menu-list{
+    width: 130vh;
     padding-left: 3%;
     padding-right: 3%;
     position: absolute;
@@ -16,7 +18,7 @@
 .card {
     width: 20%;
     height: 30%;
-    margin: 1rem 1rem 0 2rem;
+    margin: 1rem 1rem 0 1rem;
     float: left;
     border-style: double;
     background-color: var(--gray);

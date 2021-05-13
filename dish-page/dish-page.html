@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <title>Easy Order</title>
     <link href="dish-style.css" type="text/css" rel="stylesheet">
+    <script src="../index.js"></script>
 </head>
 
 <body>
     <header>
         <div id="menu">
             <div class="buttons">
-                <button class="menu-buttons button-style">Начало</button>
+                <button class="menu-buttons button-style" onclick="openHomePage()">Начало</button>
                 <button class="menu-buttons button-style">За нас</button>
                 <button class="menu-buttons button-style">Персонал</button>
             </div>
             <img src="../images/easy_order_logo.png" id="system-logo">
             <div class="buttons">
                 <button class="menu-buttons button-style">Акаунт</button>
-                <button class="menu-buttons button-style" id="my-order">Моята поръчка</button>
+                <button class="menu-buttons button-style" id="my-order" onclick="openBill()">Моята поръчка</button>
                 <button type="button" class="button-style" id="lang-button">БГ</button>
             </div>
         </div>
