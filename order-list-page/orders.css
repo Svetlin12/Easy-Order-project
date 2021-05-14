@@ -1,56 +1,56 @@
 @import url("../style.css");
 
-.menu-items{
-    width: 120vh;
-    Display: Inline-Block;
+.menu-items {
+  margin: auto;
+  width: 130vh;
+  display: Inline-Block;
 }
 
-#menu-list{
-    width: 130vh;
-    padding-left: 3%;
-    padding-right: 3%;
-    position: absolute;
-    max-height: 70%;
-    overflow-y: scroll;
+#menu-list {
+  width: 130vh;
+  margin: auto;
+  max-height: 70vh;
+  margin-bottom: 10%;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 /* card css */
 .card {
-    width: 20%;
-    height: 30%;
-    margin: 1rem 1rem 0 1rem;
-    float: left;
-    border-style: double;
-    background-color: var(--gray);
+  width: 20%;
+  height: 30%;
+  margin: 1rem 1rem 0 1rem;
+  float: left;
+  border-style: double;
+  background-color: var(--gray);
 }
-.card-body{
-    text-align: center;
+.card-body {
+  text-align: center;
 }
 
 .card-img-top {
-    margin: 1%;
-    padding: 5%;
-    width: 90%;
+  margin: 1%;
+  padding: 5%;
+  width: 90%;
 }
 
 h1 {
-    font-size: 150%;
+  font-size: 150%;
 }
 
-
 a {
-    font-size: 150%;
-    color: var(--white);
-    text-decoration: none;
+  font-size: 150%;
+  color: var(--white);
+  text-decoration: none;
 }
 
 .active {
-    font-size: 200%;
-    font-weight: bold;
+  font-size: 200%;
+  font-weight: bold;
 }
 
 #menu-center li {
-    width: 100%;
-    margin: 0 1rem 0 1rem;
-    display: inline;
+  width: 100%;
+  margin: 0 1rem 0 1rem;
+  display: inline;
 }

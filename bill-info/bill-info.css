@@ -44,9 +44,10 @@ h1 {
 }
 
 #dishes-list {
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   width: 80%;
-  height: 35rem;
+  max-height: 50vh;
   padding-left: 15%;
 }
 
@@ -59,7 +60,7 @@ h1 {
 
 td {
   text-align: left;
-  font-size: 150%;
+  font-size: 3vh;
   padding-left: 2rem;
   padding-bottom: 1rem;
 }
