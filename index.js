@@ -17,3 +17,14 @@ function openDishInfo(name) {
 }
 
 
+function openPrevOrders() {
+    window.location.href = "../prev-orders/prev-orders.html";
+}
+
+function openPayment() {
+    window.location.href = "../payment-info/payment-info.html";
+}
+
+function goBack() {
+    window.history.back();
+  }

@@ -2,48 +2,48 @@
 
 #history {
   display: flex;
-  margin: 2% 5%;
+  height: 50vh;
 }
 
 #all-histories {
-  width: max-content;
-  margin: 2rem;
+  margin: 2vh;
   margin-left: 4rem;
-  width: 20%;
+  width: 40vh;
 }
 
 #order-list {
-  display: block; 
+  display: block;
 }
 
-.history-btn{
-  padding: 1rem 3rem;
+.history-btn {
+  padding: 1rem 2rem;
   border-radius: 0%;
 }
 
 h1 {
   margin-bottom: 2rem;
-  font-size: 120%;
+  font-size: 3vh;
 }
 
-
-.one-line{
-  margin-left: 4rem;
+h2 {
+  font-size: 2.5vh;
 }
 
-
+.one-line {
+  margin-left: 2vh;
+}
 
 #bill-dishes {
-  margin-top: 2rem;
-  margin-left: 4rem;
+  margin-top: 2vh;
+  margin-left: 6vh;
   width: 60%;
 }
 
-
 #dishes-list {
-  overflow: scroll;
-  width: 80%;
-  height: 35rem;
+  overflow-y: scroll;
+  position: absolute;
+  width: 60vh;
+  height: 50%;
 }
 
 #dish-info {
@@ -52,10 +52,9 @@ h1 {
 }
 
 #dish-img {
-  width: 35%;
+  width: 20vh;
   padding: 5%;
 }
-
 
 #dish-text {
   height: 100%;
@@ -68,7 +67,7 @@ h1 {
   margin-right: 5%;
 }
 
-
 .footer-btn {
-  margin-left: 3rem;
+  margin-left: 5vh;
+  margin-top: 8vh;
 }

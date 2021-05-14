@@ -31,7 +31,7 @@
             <h1>25.65</h1>
         </div>
 
-        <button type="button" class="button-style" id="bill-info">Преглед на поръчката</button>
+        <button type="button" class="button-style" id="bill-info" onclick="openBill()">Преглед на поръчката</button>
         <h1>Метод на плащане: </h1>
 
         <div class="one-line">
@@ -46,8 +46,8 @@
     </div>
 
     <div id="button-menu" class = "one-line">
-        <button type="button" class="button-style footer-btn" id="back">Назад</button>
-        <button type="button" class="button-style footer-btn" id="old-bills">Преглед на минали поръчки</button>
+        <button type="button" class="button-style footer-btn" id="back" onclick="goBack()">Назад</button>
+        <button type="button" class="button-style footer-btn" id="old-bills" onclick="openPrevOrders()">Преглед на минали поръчки</button>
         <button type="button" class="button-style footer-btn" id="pay">Плати</button>
     </div>
 </body>

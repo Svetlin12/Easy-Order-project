@@ -19,10 +19,10 @@
 #popup {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  width: 100%;
+  width: 130vh;
   height: 100%;
   top: 0;
-  z-index: 1; /* Sit on top */
+  z-index: 0; /* Sit on top */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
@@ -51,11 +51,10 @@
 }
 
 iframe {
-  width: 420px;
-  height: 315px;
+  width: 84vh;
+  height: 63vh;
 }
 
-
-#lang-button{
+#lang-button {
   margin-right: 0;
 }

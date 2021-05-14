@@ -45,12 +45,14 @@ header {
 }
 
 .menu-buttons {
-  width: 30%;
+  width: 15vh;
   padding: 2.5% 0 2.5% 0;
   margin: auto;
+  font-size: 2vh;
 }
 
 .button-style {
+  font-size: 2vh;
   border-radius: 30rem;
   background-image: linear-gradient(var(--red), #3f0000);
   border-color: #3f0000;
@@ -74,7 +76,7 @@ header {
 #chosen-menu {
   border-style: groove;
   background-color: white;
-  font-size: 130%;
+  font-size: 3vh;
   padding: 1%;
   margin: 0 2%;
   border-radius: 10rem;
@@ -91,7 +93,7 @@ header {
 }
 
 .footer-btn {
-  padding: 0.7rem 5rem;
+  padding: 1vh 7vh;
   margin: auto;
 }
 
