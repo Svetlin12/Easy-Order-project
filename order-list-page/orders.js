@@ -38,7 +38,7 @@ function onScroll(event) {
     });
 }
 
-function addDishesCard(type, name, price, img) {
+function addDishesCard(type, name, price, img, func) {
     var cardTitle = document.createElement("h3");
     var text = document.createTextNode(name);
     cardTitle.appendChild(text);
@@ -64,14 +64,14 @@ function addDishesCard(type, name, price, img) {
     card.appendChild(cardBody);
     card.setAttribute("class", "card");
     //card.onclick = openDishInfo();
-    card.setAttribute("onclick","openDishInfo(name);");
+    card.setAttribute("onclick",func);
 
     var element = document.getElementById(type);
     element.appendChild(card);
 }
 
 function fillDishes(event) {
-    addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png", "openShopskaSalata();");
     addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
