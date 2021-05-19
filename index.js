@@ -29,7 +29,6 @@ function goBack() {
     window.history.back();
 }
 
-
 function openShopskaSalata() {
-    window.location.href = "../dish-page/dish-page-shopska-salata.html";
+    window.location.href = "../dish-page/dish-page.html";
 }

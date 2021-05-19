@@ -13,6 +13,22 @@ function addToCard() {
         price: price
     });
 
-    console.log(card)
-    localStorage.setItem('card', JSON.stringify(card))
+    localStorage.setItem('card', JSON.stringify(card));
+
+    const responseDiv = document.getElementById("response");
+    responseDiv.classList.add("show-popup");
+
+    // waits untill all animations have finished, then removes the class from the class list
+    Promise.all(
+        responseDiv.getAnimations().map(
+            function(animation) {
+                return animation.finished;
+            }
+        )
+    )
+    .then(
+        function() {
+            responseDiv.classList.remove("show-popup");
+        }
+    )
 }

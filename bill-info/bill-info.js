@@ -65,7 +65,11 @@ function removeDish(i) {
 
 
 function fillCard() {
-    document.getElementById("current-bill").innerText = localStorage.getItem("finalBill");
+    var finalBill = localStorage.getItem("finalBill");
+    if (finalBill == null) {
+        finalBill = "0.00";
+    }
+    document.getElementById("current-bill").innerText = finalBill;
 
     dishList = JSON.parse(localStorage.getItem('card'));
     var price = 0;
@@ -85,10 +89,10 @@ function doOrder() {
         list.removeChild(list.lastElementChild);
     }
 
+    var startingPrice = 0;
     document.getElementById("current-bill").innerText = document.getElementById("final").innerText;
-    document.getElementById("new-bill").innerText = 0.00;
-    document.getElementById("discount").innerText = 0.00;
-
+    document.getElementById("new-bill").innerText = startingPrice.toFixed(2);
+    document.getElementById("discount").innerText = startingPrice.toFixed(2);
 }
 
 
