@@ -14,21 +14,18 @@
   margin-top: 5%;
 }
 
-#dish-info {
+.dish-info {
   display: flex;
   margin-top: 1%;
 }
 
-#dish-img {
+.dish-img {
   width: 35%;
   padding: 5%;
 }
 
-#dish-text {
+.dish-text {
   height: 100%;
-}
-
-#dish-text {
   margin: auto 0;
 }
 
@@ -51,7 +48,7 @@ h1 {
   padding-left: 15%;
 }
 
-#remove-img {
+.remove-img {
   width: 5%;
   height: 5%;
   margin: auto;

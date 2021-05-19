@@ -6,6 +6,7 @@
     <title>Easy Order</title>
     <link href="dish-style.css" type="text/css" rel="stylesheet">
     <script src="../index.js"></script>
+    <script src="dish-page.js"></script>
 </head>
 
 <body>
@@ -30,7 +31,11 @@
         <div id="dish-info">
             <img id="dish-img" src="../images/shopska-salata.png" alt="Шопска салата">
             <div id="dish-text">
-                <h1>Шопска салата</h1>
+                <h1 id="dish-name">Шопска салата</h1>
+                <div class="one-line">
+                    <h2>Цена:</h2>
+                    <h2 id="dish-price">5.70</h2>
+                </div>
                 <h2>Съставки:</h2>
                 <p>сирене, домати, краставици, лук, маруля, маслина, кашкавал, кашкавал, кашкавал</p>
                 <h2>Алергени:</h2>
@@ -54,7 +59,14 @@
             </div>
         </div>
 
-        <h1 class="center-text">Мнения</h1>
+        <div  class="one-line">
+            <button type="button" class="button-style footer-btn" id="back" onclick="goBack()">Назад</button>
+            <button type="button" class="button-style footer-btn" id="add-dish" 
+                onclick="addToCard()">Добави в количката</button>
+            <button type="button" class="button-style footer-btn" id="add-comment">Добави мнение</button>
+    
+        </div>
+
         <div id="commenst-container">
             <div class="comment sb1">
                 <p class="comment-name">Мария</p>

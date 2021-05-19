@@ -33,5 +33,3 @@ function goBack() {
 function openShopskaSalata() {
     window.location.href = "../dish-page/dish-page-shopska-salata.html";
 }
-
-var finalsum;

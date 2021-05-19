@@ -6,9 +6,10 @@
     <title>Easy Order</title>
     <link href="payment-info.css" type="text/css" rel="stylesheet">
     <script src="../index.js"></script>
+    <script src="payment-info.js"></script>
 </head>
 
-<body>
+<body onload="fillCurrentBill()">
     <header>
         <div id="menu">
             <div class="buttons">
@@ -28,7 +29,7 @@
     <div>
         <div class="one-line center">
             <h1>Текуща сметка: </h1>
-            <h1>25.65</h1>
+            <h1 id="current-bill">25.65</h1>
         </div>
 
         <button type="button" class="button-style" id="bill-info" onclick="openBill()">Преглед на поръчката</button>
