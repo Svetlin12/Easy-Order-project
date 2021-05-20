@@ -1,16 +1,34 @@
 @import url("../style.css");
 
-.menu-items {
+html {
+  min-height: 110vh;
+}
+
+/*old menu-items */
+/*.menu-items {
   margin: auto;
   width: 130vh;
   display: Inline-Block;
 }
+*/
+
+/* modified menu-items */
+.menu-items {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.menu-type {
+  flex: 1 100%;
+}
 
 #menu-list {
-  width: 130vh;
-  margin: auto;
+  /*width: 130vh;*/
+  width: 100%;
+  /*margin: auto;*/
   max-height: 70vh;
-  margin-bottom: 10%;
+  margin-bottom: 10vh;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -23,6 +41,7 @@
   float: left;
   border-style: double;
   background-color: var(--gray);
+  flex: 0 1 auto;
 }
 .card-body {
   text-align: center;
