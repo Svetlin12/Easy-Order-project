@@ -127,7 +127,7 @@ function fillDishes(event) {
     addDishesCard("dessert", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("dessert", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("dessert", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("drinks", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("drinks", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("drinks", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    addDishesCard("drinks", "Кафе", 2.30, "../images/drinks-coffee.png", "openCoffee();");
+    addDishesCard("drinks", "Минерална вода", 2.10, "../images/drinks-mineral-water.png", "openWater();");
+    addDishesCard("drinks", "Кола", 2.20, "../images/drinks-cola.png", "openCola();");
 }
