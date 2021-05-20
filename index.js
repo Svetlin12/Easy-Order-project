@@ -32,3 +32,15 @@ function goBack() {
 function openShopskaSalata() {
     window.location.href = "../dish-page/dish-page.html";
 }
+
+function openCoffee() {
+    window.location.href = "../dish-page/drinks-coffee.html";
+}
+
+function openWater() {
+    window.location.href = "../dish-page/drinks-mineral-water.html";
+}
+
+function openCola() {
+    window.location.href = "../dish-page/drinks-cola.html";
+}
