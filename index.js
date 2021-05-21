@@ -32,7 +32,6 @@ function goBack() {
 function openShopskaSalata() {
     window.location.href = "../dish-page/dish-page.html";
 }
-
 function openCoffee() {
     window.location.href = "../dish-page/drinks-coffee.html";
 }
@@ -43,4 +42,40 @@ function openWater() {
 
 function openCola() {
     window.location.href = "../dish-page/drinks-cola.html";
+}
+
+function openWhiskey() {
+    window.location.href = "../dish-page/drinks-whiskey-jack.html";
+}
+
+function openBeer() {
+    window.location.href = "../dish-page/drinks-beer-stella.html";
+}
+
+function openMojito() {
+    window.location.href = "../dish-page/drinks-cocktail-mojito.html";
+}
+
+function openLemonade() {
+    window.location.href = "../dish-page/drinks-lemonade.html";
+}
+
+function openSchweppes() {
+    window.location.href = "../dish-page/drinks-schweppes.html";
+}
+
+function openCaramel() {
+    window.location.href = "../dish-page/desserts-caramel.html";
+}
+
+function openNuts() {
+    window.location.href = "../dish-page/desserts-nuts.html";
+}
+
+function openTiramisu() {
+    window.location.href = "../dish-page/desserts-tiramisu.html";
+}
+
+function openTurkish() {
+    window.location.href = "../dish-page/desserts-turkish.html";
 }
