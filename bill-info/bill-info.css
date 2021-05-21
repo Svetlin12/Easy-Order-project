@@ -73,4 +73,49 @@ tr.final-price > td {
   margin-left: 0%;
 }
 
+#confirm-message-container {
+  display: none;
 
+  position: absolute;
+  left: 25%;
+  top: 38%;
+  z-index: 2;
+
+  box-sizing: border-box;
+  width: 50%;
+  height: 25%;
+
+  background-color: var(--gray);
+
+  opacity: 1;
+}
+
+#confirm-message-container header {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+
+#confirm-message-container header span h2 {
+  margin: 0;
+}
+
+#confirm-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  text-align: center;
+}
+
+.confirm-btn {
+  padding: 0.8vh 2vw;
+}
+
+.visible {
+  display: inline-block !important;
+}
+
+.hide-scrollbar {
+  overflow-y: hidden !important;
+}
