@@ -124,10 +124,18 @@ function fillDishes(event) {
     addDishesCard("appetizer", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("appetizer", "Шопска салата", 5.70, "../images/shopska-salata.png");
     addDishesCard("appetizer", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("dessert", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("dessert", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("dessert", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    
+    addDishesCard("dessert", "Карамел", 5.60, "../images/desserts-caramel.png", "openCaramel();");
+    addDishesCard("dessert", "Ядки", 2.80, "../images/desserts-nuts.png", "openNuts();");
+    addDishesCard("dessert", "Тирамису", 4.80, "../images/desserts-tiramisu.png", "openTiramisu();");
+    addDishesCard("dessert", "Баклава", 4.10, "../images/desserts-turkish.png", "openTurkish();");
+
     addDishesCard("drinks", "Кафе", 2.30, "../images/drinks-coffee.png", "openCoffee();");
     addDishesCard("drinks", "Минерална вода", 2.10, "../images/drinks-mineral-water.png", "openWater();");
     addDishesCard("drinks", "Кола", 2.20, "../images/drinks-cola.png", "openCola();");
+    addDishesCard("drinks", "Уиски", 5.60, "../images/drinks-whiskey-jack.png", "openWhiskey();");
+    addDishesCard("drinks", "Бира", 2.00, "../images/drinks-beer-stella.png", "openBeer();");
+    addDishesCard("drinks", "Мохито", 7.10, "../images/drinks-cocktail-mojito.png", "openMojito();");
+    addDishesCard("drinks", "Лимонада", 1.70, "../images/drinks-lemonade.png", "openLemonade();");
+    addDishesCard("drinks", "Швепс", 1.80, "../images/drinks-schweppes.png", "openSchweppes();");
 }
