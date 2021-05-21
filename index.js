@@ -32,6 +32,27 @@ function goBack() {
 function openShopskaSalata() {
     window.location.href = "../dish-page/dish-page.html";
 }
+
+function openSaladIceberg() {
+    window.location.href = "../dish-page/salad-iceberg.html";
+}
+
+function openPizzaMargarita() {
+    window.location.href = "../dish-page/pizza-margarita.html";
+}
+
+function openPizzaVegetariana() {
+    window.location.href = "../dish-page/pizza-vegetariana.html";
+}
+
+function openAppetizerFrenchEggs() {
+    window.location.href = "../dish-page/appetizer-french-eggs.html";
+}
+
+function openAppetizerPeppersWithTomatoSauce() {
+    window.location.href = "../dish-page/appetizer-peppers-with-tomato-sauce.html";
+}
+
 function openCoffee() {
     window.location.href = "../dish-page/drinks-coffee.html";
 }
