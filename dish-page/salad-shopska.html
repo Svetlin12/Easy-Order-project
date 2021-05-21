@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Easy Order</title>
+    <link href="dish-style.css" type="text/css" rel="stylesheet">
+    <script src="../index.js"></script>
+    <script src="dish-page.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <div class="buttons">
+                <button class="menu-buttons button-style" onclick="openHomePage()">Начало</button>
+                <button class="menu-buttons button-style">За нас</button>
+                <button class="menu-buttons button-style">Персонал</button>
+            </div>
+            <img src="../images/easy_order_logo.png" id="system-logo">
+            <div class="buttons">
+                <button class="menu-buttons button-style">Акаунт</button>
+                <button class="menu-buttons button-style" id="my-order" onclick="openBill()">Моята поръчка</button>
+                <button type="button" class="button-style" id="lang-button">БГ</button>
+            </div>
+        </div>
+        <p id="chosen-menu">Основно меню / Салати</p>
+    </header>
+
+    <div id="dish">
+        <div id="dish-info">
+            <img id="dish-img" src="../images/salads-shopska.png" alt="Шопска салата">
+            <div id="dish-text">
+                <h1 id="dish-name">Шопска салата</h1>
+                <div class="one-line">
+                    <h2>Цена:</h2>
+                    <h2 id="dish-price">5.70</h2>
+                </div>
+                <h2>Съставки:</h2>
+                <p>домати, червени чушки, краставици, маслини, сирене, лук, магданоз, сол, оцет, зехтин</p>
+                <h2>Алергени:</h2>
+                <p>Лактоза</p>
+                <div class="one-line">
+                    <h2>Рейтинг:</h2>
+                    <h2>8</h2>
+                    <h2>/10</h2>
+                </div>
+            </div>
+            <div id="recommmend">
+                <h2 class="center-text">Препоръчано:</h2>
+                <div>
+                    <img class="recom-img" src="../images/salads-shopska.png" alt="Шопска салата">
+                    <p class="center-text">Шопска салата</p>
+                </div>
+                <div>
+                    <img class="recom-img" src="../images/salads-shopska.png" alt="Шопска салата">
+                    <p class="center-text">Шопска салата</p>
+                </div>
+            </div>
+        </div>
+
+        <div  class="one-line">
+            <button type="button" class="button-style footer-btn" id="back" onclick="goBack()">Назад</button>
+            <button type="button" class="button-style footer-btn" id="add-dish" 
+                onclick="addToCard()">Добави в количката</button>
+            <button type="button" class="button-style footer-btn" id="add-comment">Добави мнение</button>
+    
+        </div>
+        
+
+        <div id="commenst-container">
+            <div class="comment sb1">
+                <p class="comment-name">Мария</p>
+                <p class="comment-text">Най-хубавата шопска салата, която съм яла. За първи път доматите и краставиците не са пластмасови.</p>
+            </div>
+            <div class="comment sb1">
+                <p class="comment-name">Георги</p>
+                <p class="comment-text">Сиренето е твърде малко. Трябва повече сирене</p>
+            </div>
+            <div class="comment sb1">
+                <p class="comment-name">Петър</p>
+                <p class="comment-text">Най-добрата салата според мен. И най-важното – всички продукти са си наши български! На ресторант винаги поръчвам шопска салата.
+                </p>
+            </div>
+            <div class="comment sb1">
+                <p class="comment-name">Иван</p>
+                <p class="comment-text">Класическа салата. Подходяща е в комбинация с всяко ястие.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="response">
+        <img src="../images/white_check_mark.png">
+        <p>Успешно добавен продукт в количката!</p>
+    </div>
+
+
+
+</body>
+
+</html>

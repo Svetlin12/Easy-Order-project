@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Easy Order</title>
+    <link href="dish-style.css" type="text/css" rel="stylesheet">
+    <script src="../index.js"></script>
+    <script src="dish-page.js"></script>
+</head>
+
+<body>
+<header>
+    <div id="menu">
+        <div class="buttons">
+            <button class="menu-buttons button-style" onclick="openHomePage()">Начало</button>
+            <button class="menu-buttons button-style">За нас</button>
+            <button class="menu-buttons button-style">Персонал</button>
+        </div>
+        <img src="../images/easy_order_logo.png" id="system-logo">
+        <div class="buttons">
+            <button class="menu-buttons button-style">Акаунт</button>
+            <button class="menu-buttons button-style" id="my-order" onclick="openBill()">Моята поръчка</button>
+            <button type="button" class="button-style" id="lang-button">БГ</button>
+        </div>
+    </div>
+    <p id="chosen-menu">Основно меню / Предястия</p>
+</header>
+
+<div id="dish">
+    <div id="dish-info">
+        <img id="dish-img" src="../images/appetizer-pepper-with-tomato-sauce.png" alt="Чушки с доматен сос">
+        <div id="dish-text">
+            <h1 id="dish-name">Чушки с доматен сос</h1>
+            <div class="one-line">
+                <h2>Цена:</h2>
+                <h2 id="dish-price">7.00</h2>
+            </div>
+            <h2>Съставки:</h2>
+            <p>зелени чушки, домати, лук, чесън, магданоз, захар, олио, сол</p>
+            <h2>Алергени:</h2>
+            <p>яйца, лактоза</p>
+            <div class="one-line">
+                <h2>Рейтинг:</h2>
+                <h2>7</h2>
+                <h2>/10</h2>
+            </div>
+        </div>
+        <div id="recommmend">
+            <h2 class="center-text">Препоръчано:</h2>
+            <div>
+                <img class="recom-img" src="../images/salads-shopska.png" alt="Шопска салата">
+                <p class="center-text">Шопска салата</p>
+            </div>
+            <div>
+                <img class="recom-img" src="../images/salads-shopska.png" alt="Шопска салата">
+                <p class="center-text">Шопска салата</p>
+            </div>
+        </div>
+    </div>
+
+    <div  class="one-line">
+        <button type="button" class="button-style footer-btn" id="back" onclick="goBack()">Назад</button>
+        <button type="button" class="button-style footer-btn" id="add-dish"
+                onclick="addToCard()">Добави в количката</button>
+        <button type="button" class="button-style footer-btn" id="add-comment">Добави мнение</button>
+
+    </div>
+
+
+    <div id="commenst-container">
+        <div class="comment sb1">
+            <p class="comment-name">Александра</p>
+            <p class="comment-text">Предястието ми хареса много. Достойно е за основно ястие. Особено за летните месеци е много подходящо.</p>
+        </div>
+        <div class="comment sb1">
+            <p class="comment-name">Доротея</p>
+            <p class="comment-text">Предястието ме върна в детството. Свързвам го само с хубави спомени и сигурно за това много ми хареса. Опитайте няма да съжалявате. Ще потърся рецептата, за да си го сготвя у дома.</p>
+        </div>
+    </div>
+</div>
+
+<div id="response">
+    <img src="../images/white_check_mark.png">
+    <p>Успешно добавен продукт в количката!</p>
+</div>
+
+
+
+</body>
+
+</html>
