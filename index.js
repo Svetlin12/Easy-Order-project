@@ -30,7 +30,7 @@ function goBack() {
 }
 
 function openShopskaSalata() {
-    window.location.href = "../dish-page/dish-page.html";
+    window.location.href = "../dish-page/salad-shopska.html";
 }
 
 function openSaladIceberg() {
