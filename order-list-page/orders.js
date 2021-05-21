@@ -112,18 +112,33 @@ function addDishesCard(type, name, price, img, func) {
 }
 
 function fillDishes(event) {
-    addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png", "openShopskaSalata();");
-    addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("salads", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("pizza", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("appetizer", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("appetizer", "Шопска салата", 5.70, "../images/shopska-salata.png");
-    addDishesCard("appetizer", "Шопска салата", 5.70, "../images/shopska-salata.png");
+    addDishesCard("salads", "Шопска салата", 5.70, "../images/salads-shopska.png", "openShopskaSalata();");
+    addDishesCard("salads", "Салата Айсберг", 6.10, "../images/salads-iceberg.png", "openSaladIceberg();");
+    addDishesCard("salads", "Овчарската салата", 7.60, "../images/salads-shepherds.png");
+    addDishesCard("salads", "Салата Бурата", 6.00, "../images/salads-burata.png");
+    addDishesCard("salads", "Диетична салата със зеле", 3.50, "../images/salads-diet.png");
+    addDishesCard("salads", "Зелена салата", 4.30, "../images/salads-green.png");
+    addDishesCard("salads", "Ловджийска салата", 9.90, "../images/salads-hunters.png");
+    addDishesCard("salads", "Пролетна салата", 5.70, "../images/salads-spring.png");
+
+    addDishesCard("pizza", "Маргарита", 7.80, "../images/pizza-margarita.png", "openPizzaMargarita();");
+    addDishesCard("pizza", "Вегетариана", 9.20, "../images/pizza-vegetariana.png", "openPizzaVegetariana();");
+    addDishesCard("pizza", "Капричозе", 11.80, "../images/pizza-caprichozze.png");
+    addDishesCard("pizza", "Куатро Формаджи", 9.70, "../images/pizza-cuatro-formaggi.png");
+    addDishesCard("pizza", "Хавай", 10.40, "../images/pizza-hawaii.png");
+    addDishesCard("pizza", "Неаполитана", 10.20, "../images/pizza-neapolitana.png");
+    addDishesCard("pizza", "Пеперони", 11.90, "../images/pizza-peperoni.png");
+    addDishesCard("pizza", "Бяла", 9.70, "../images/pizza-white.png");
+
+    addDishesCard("appetizer", "Яйца по френски", 7.10, "../images/appetizer-french-eggs.png", "openAppetizerFrenchEggs();");
+    addDishesCard("appetizer", "Чушки с доматен сос", 7.00, "../images/appetizer-pepper-with-tomato-sauce.png", "openAppetizerPeppersWithTomatoSauce();");
+    addDishesCard("appetizer", "Мариновани гъби", 9.80, "../images/appetizer-marinated-mushrooms.png");
+    addDishesCard("appetizer", "Пълнени гъби с яйца и кашкавал", 10.20, "../images/appetizer-stuffed-mushroom.png");
+    addDishesCard("appetizer", "Ориз със зеленчуци", 4.30, "../images/appetizer-rice-and-vegetables.png");
+    addDishesCard("appetizer", "Дзадзики по гръцки", 3.50, "../images/appetizer-tzatziki.png");
+    addDishesCard("appetizer", "Зеленчуци на скара", 6.80, "../images/appetizer-grilled-vegetables.png");
+    addDishesCard("appetizer", "Кашкавал под капак", 11.00, "../images/appetizer-yellow-cheese.png");
+    addDishesCard("appetizer", "Пилешки хапки", 8.30, "../images/appetizer-chicken-nuggets.png");
     
     addDishesCard("dessert", "Карамел", 5.60, "../images/desserts-caramel.png", "openCaramel();");
     addDishesCard("dessert", "Ядки", 2.80, "../images/desserts-nuts.png", "openNuts();");
