@@ -17,16 +17,16 @@ $(menuList).ready(function() {
       var dessertThreshold;
 
       if (scroll_pos > lastScrollPos) {
-        saladsThreshold = 246;
-        pizzaThreshold = 739;
-        appetizerThreshold = 1109;
-        dessertThreshold = 1210;
+        saladsThreshold = 466;
+        pizzaThreshold = 1166;
+        appetizerThreshold = 2100;
+        dessertThreshold = 2400;
       }
       else {
-          saladsThreshold = 123;
-          pizzaThreshold = 493;
-          appetizerThreshold = 862;
-          dessertThreshold = 1134;
+        saladsThreshold = 100;
+        pizzaThreshold = 788;
+        appetizerThreshold = 1720;
+        dessertThreshold = 2200;
       }
 
       if (scroll_pos < saladsThreshold) {
