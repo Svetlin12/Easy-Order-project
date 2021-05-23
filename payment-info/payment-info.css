@@ -43,3 +43,8 @@ label {
 #pay{
   padding: 2% 8vh;
 }
+
+#response > img {
+  margin-right: 0 !important;
+  margin-left: 1rem;
+}
