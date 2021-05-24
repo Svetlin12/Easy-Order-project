@@ -1,5 +1,8 @@
-
 function openHomePage() {
+    window.location.href = "../order-list-page/orders.html";
+}
+
+function openLoginPage() {
     window.location.href = "../main-menu/main-menu.html";
 }
 
