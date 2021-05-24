@@ -15,81 +15,79 @@
 </head>
 
 <body>
-<header>
-    <div id="menu">
-        <div class="buttons">
-            <button class="menu-buttons button-style" onclick="openHomePage()">Начало</button>
-            <button class="menu-buttons button-style">За нас</button>
-            <button class="menu-buttons button-style">Персонал</button>
-        </div>
-        <img src="../images/easy_order_logo.png" id="system-logo">
-        <div class="buttons">
-            <button class="menu-buttons button-style">Акаунт</button>
-            <button class="menu-buttons button-style" id="my-order" onclick="openBill()">Моята поръчка</button>
-            <button type="button" class="button-style" id="lang-button">БГ</button>
-        </div>
-    </div>
-    <p id="chosen-menu">Основно меню / Пици</p>
-</header>
-
-<div id="dish">
-    <div id="dish-info">
-        <img id="dish-img" src="../images/pizza-margarita.png" alt="Пица Маргарита">
-        <div id="dish-text">
-            <h1 id="dish-name">Пица Маргарита</h1>
-            <div class="one-line">
-                <h2>Цена:</h2>
-                <h2 id="dish-price">7.80</h2>
+    <header>
+        <div id="menu">
+            <div class="buttons">
+                <button class="menu-buttons button-style" onclick="openHomePage()">Начало</button>
+                <button class="menu-buttons button-style">За нас</button>
+                <button class="menu-buttons button-style">Персонал</button>
             </div>
-            <h2>Съставки:</h2>
-            <p>брашно, мая, домати, моцарела, сол, зехтин, черен пипер и босилек</p>
-            <h2>Алергени:</h2>
-            <p>глутен, яйца, лактоза</p>
-            <div class="one-line">
-                <h2>Рейтинг:</h2>
-                <h2>8</h2>
-                <h2>/10</h2>
+            <img src="../images/easy_order_logo.png" id="system-logo">
+            <div class="buttons">
+                <button class="menu-buttons button-style">Акаунт</button>
+                <button class="menu-buttons button-style" id="my-order" onclick="openBill()">Моята поръчка</button>
+                <button type="button" class="button-style" id="lang-button">БГ</button>
             </div>
         </div>
-        <div id="recommmend">
-            <h2 class="center-text">Препоръчано:</h2>
-            <div>
-                  <img class="recom-img" src="../images/appetizer-french-eggs.png" alt="Яйца по френски">
-                  <p class="center-text">Яйца по френски</p>
-              </div>
-              <div>
-                  <img class="recom-img" src="../images/appetizer-pepper-with-tomato-sauce.png"
-                       alt="Чушки с доматен сос">
-                  <p class="center-text">Чушки с доматен сос</p>
+        <p id="chosen-menu">Основно меню / Пици</p>
+    </header>
+
+    <div id="dish">
+        <div id="dish-info">
+            <img id="dish-img" src="../images/pizza-margarita.png" alt="Пица Маргарита">
+            <div id="dish-text">
+                <h1 id="dish-name">Пица Маргарита</h1>
+                <div class="one-line">
+                    <h2>Цена:</h2>
+                    <h2 id="dish-price">7.80</h2>
+                </div>
+                <h2>Съставки:</h2>
+                <p>брашно, мая, домати, моцарела, сол, зехтин, черен пипер и босилек</p>
+                <h2>Алергени:</h2>
+                <p>глутен, яйца, лактоза</p>
+                <div class="one-line">
+                    <h2>Рейтинг:</h2>
+                    <h2>8</h2>
+                    <h2>/10</h2>
+                </div>
+            </div>
+            <div id="recommmend">
+                <h2 class="center-text">Препоръчано:</h2>
+                <div>
+                    <img class="recom-img" src="../images/appetizer-french-eggs.png" alt="Яйца по френски" onclick="openAppetizerFrenchEggs()">
+                    <p class="center-text">Яйца по френски</p>
+                </div>
+                <div>
+                    <img class="recom-img" src="../images/appetizer-pepper-with-tomato-sauce.png" alt="Чушки с доматен сос" onclick="openAppetizerPeppersWithTomatoSauce()">
+                    <p class="center-text">Чушки с доматен сос</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="one-line">
+            <button type="button" class="button-style footer-btn" id="back" onclick="goBack()">Назад</button>
+            <button type="button" class="button-style footer-btn" id="add-dish" onclick="addToCard()">Добави в количката</button>
+            <button type="button" class="button-style footer-btn" id="add-comment">Добави мнение</button>
+
+        </div>
+
+
+        <div id="commenst-container">
+            <div class="comment sb1">
+                <p class="comment-name">Кристина</p>
+                <p class="comment-text">Доволна съм от пицата. Можеше да бъде малко по-добре изпечена. Въпреки това препоръчвам.</p>
+            </div>
+            <div class="comment sb1">
+                <p class="comment-name">Деница</p>
+                <p class="comment-text">Поръчката се забави 40 мин. Не поръчвайте, ако не искате да нощувате в ресторанта.</p>
             </div>
         </div>
     </div>
 
-    <div  class="one-line">
-        <button type="button" class="button-style footer-btn" id="back" onclick="goBack()">Назад</button>
-        <button type="button" class="button-style footer-btn" id="add-dish"
-                onclick="addToCard()">Добави в количката</button>
-        <button type="button" class="button-style footer-btn" id="add-comment">Добави мнение</button>
-
+    <div id="response">
+        <img src="../images/white_check_mark.png">
+        <p>Успешно добавен продукт в количката!</p>
     </div>
-
-
-    <div id="commenst-container">
-        <div class="comment sb1">
-            <p class="comment-name">Кристина</p>
-            <p class="comment-text">Доволна съм от пицата. Можеше да бъде малко по-добре изпечена. Въпреки това препоръчвам.</p>
-        </div>
-        <div class="comment sb1">
-            <p class="comment-name">Деница</p>
-            <p class="comment-text">Поръчката се забави 40 мин. Не поръчвайте, ако не искате да нощувате в ресторанта.</p>
-        </div>
-    </div>
-</div>
-
-<div id="response">
-    <img src="../images/white_check_mark.png">
-    <p>Успешно добавен продукт в количката!</p>
-</div>
 
 
 
